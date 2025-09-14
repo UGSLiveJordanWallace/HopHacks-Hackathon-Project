@@ -1,0 +1,138 @@
+{
+    "budget": [
+        {
+            "budgetName": "Rent & Utilities",
+            "budgetValue": 600,
+            "explanation": "This covers your housing expenses and essential utilities.",
+            "percentage": 40
+        },
+        {
+            "budgetName": "Food",
+            "budgetValue": 225,
+            "explanation": "This budget allocates funds for groceries and occasional dining out.",
+            "percentage": 15
+        },
+        {
+            "budgetName": "Transportation",
+            "budgetValue": 150,
+            "explanation": "This covers fuel, public transport, and vehicle maintenance.",
+            "percentage": 10
+        },
+        {
+            "budgetName": "Savings & Emergency Fund",
+            "budgetValue": 225,
+            "explanation": "This is crucial for building your financial security and working towards your goals.",
+            "percentage": 15
+        },
+        {
+            "budgetName": "Personal Care & Entertainment",
+            "budgetValue": 150,
+            "explanation": "This includes personal hygiene, hobbies, and social activities.",
+            "percentage": 10
+        },
+        {
+            "budgetName": "Debt Repayment (Student Loans)",
+            "budgetValue": 150,
+            "explanation": "Allocated for any student loan repayments you may have.",
+            "percentage": 10
+        }
+    ],
+    "goals": {
+        "long": [
+            {
+                "explanation": "Saving for a down payment on a house will provide long-term stability and asset building.",
+                "goal": "Down Payment on a House",
+                "monthlyPayments": 200,
+                "targetAmount": 30000
+            },
+            {
+                "explanation": "Building a significant retirement fund will ensure financial independence in your later years.",
+                "goal": "Retirement Fund",
+                "monthlyPayments": 150,
+                "targetAmount": 1000000
+            }
+        ],
+        "short": [
+            {
+                "explanation": "Building an emergency fund provides a financial safety net for unexpected expenses.",
+                "goal": "Emergency Fund (3-6 months of expenses)",
+                "monthlyPayments": 75,
+                "targetAmount": 4500
+            },
+            {
+                "explanation": "Paying off any high-interest debt frees up cash flow and reduces financial stress.",
+                "goal": "Pay off Credit Card Debt",
+                "monthlyPayments": 100,
+                "targetAmount": 1000
+            }
+        ]
+    },
+    "investments": [
+        {
+            "diversificationGrade": "hot",
+            "explanation": "These funds offer broad market exposure and automatic diversification across many companies.",
+            "option": "Index Funds/ETFs",
+            "returns": 7,
+            "riskGrade": "neutral"
+        },
+        {
+            "diversificationGrade": "neutral",
+            "explanation": "Investing in individual stocks can offer higher returns but comes with greater risk and less diversification.",
+            "option": "Individual Stocks (Large-Cap, Established Companies)",
+            "returns": 8,
+            "riskGrade": "neutral"
+        },
+        {
+            "diversificationGrade": "cold",
+            "explanation": "While potentially high-reward, cryptocurrencies are highly volatile and carry significant risk due to lack of regulation and price swings.",
+            "option": "Cryptocurrencies (Small Allocation)",
+            "returns": 10,
+            "riskGrade": "hot"
+        },
+        {
+            "diversificationGrade": "hot",
+            "explanation": "Robo-advisors create and manage a diversified portfolio for you based on your risk tolerance, making investing accessible and hands-off.",
+            "option": "Robo-Advisors (e.g., Betterment, Wealthfront)",
+            "returns": 6,
+            "riskGrade": "neutral"
+        }
+    ],
+    "retirement": [
+        {
+            "explanation": "A Roth IRA allows your contributions to grow tax-free and withdrawals in retirement are also tax-free, ideal for someone starting early.",
+            "monthlyPayments": 100,
+            "option": "Roth IRA"
+        },
+        {
+            "explanation": "A 401(k) is a workplace retirement plan. If your employer offers a match, it's essentially free money and should be prioritized.",
+            "monthlyPayments": 50,
+            "option": "401(k) (if offered by employer, especially with matching contributions)"
+        },
+        {
+            "explanation": "This option provides a supplemental income stream in retirement through real estate investments, but requires significant capital.",
+            "monthlyPayments": 0,
+            "option": "Real Estate (Rental Property - long-term goal)"
+        }
+    ],
+    "savings": {
+        "emergencyFund": {
+            "explanation": "This fund covers unexpected expenses like medical emergencies or job loss. Aim for 3-6 months of living expenses.",
+            "monthlyPayments": 75,
+            "targetAmount": 4500
+        },
+        "longTermFund": {
+            "explanation": "This fund is for future large purchases or long-term financial goals beyond retirement, such as a down payment for a house.",
+            "monthlyPayments": 150,
+            "targetAmount": 9000
+        },
+        "projection": [
+            { "totalSavings": 2700, "years": 1 },
+            { "totalSavings": 5400, "years": 2 },
+            { "totalSavings": 8100, "years": 3 },
+            { "totalSavings": 13500, "years": 5 },
+            { "totalSavings": 27000, "years": 10 },
+            { "totalSavings": 54000, "years": 20 },
+            { "totalSavings": 81000, "years": 30 }
+        ]
+    }
+}
